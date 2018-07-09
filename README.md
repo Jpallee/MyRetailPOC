@@ -46,9 +46,11 @@ Unzip the project, Import to eclipse as Exisitng Maven projects,select the proje
 Start mongo DB server. To start DB go to the Mongo Db installed path and execute mongod.exe from the command prompt.
 
 Example: "C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"
+
 After Importing the projecct into Eclipse, right click on the project and select Run As Spring Boot App.
 
 Access the applictaion from Postmanwith below urls
+
 GET Request : http://localhost:8080/products/52030896
 
 PUT Request : http://localhost:8080/products/52030896 and provide below json in the body and select content type as JSON
