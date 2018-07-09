@@ -53,7 +53,9 @@ Access the applictaion from Postmanwith below urls
 
 GET Request : http://localhost:8080/products/52030896
 
-PUT Request : http://localhost:8080/products/52030896 and provide below json in the body and select content type as JSON
+PUT Request : http://localhost:8080/products/52030896  
+
+select method as PUT, provide below format json in the body,change the price , select content type as JSON and click on send.
 
 {"id":13860428,"name":"The Big Lebowski (Blu-ray)","current_price":{"value":17.05,"currency_code":"USD"}}
 
